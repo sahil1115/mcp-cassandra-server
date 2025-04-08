@@ -1,0 +1,45 @@
+{
+  "name": "@sahil1115/mcp-cassandra-server",
+  "version": "0.1.0",
+  "description": "Cassandra MCP server for integrating Cassandra database with Claude Desktop through natural language interactions",
+  "type": "module",
+  "bin": {
+    "mcp-cassandra": "./build/index.js"
+  },
+  "files": [
+    "build"
+  ],
+  "scripts": {
+    "build": "tsc && node -e \"require('fs').chmodSync('build/index.js', '755')\"",
+    "prepare": "npm run build",
+    "watch": "tsc --watch",
+    "inspector": "npx @modelcontextprotocol/inspector build/index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "0.6.0",
+    "cassandra-driver": "^4.7.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.24",
+    "typescript": "^5.3.3"
+  },
+  "keywords": [
+    "mcp",
+    "cassandra",
+    "nosql",
+    "database",
+    "claude",
+    "natural-language",
+    "cql"
+  ],
+  "author": "Sahil M",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sahil1115/mcp-cassandra-server.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sahil1115/mcp-cassandra-server/issues"
+  },
+  "homepage": "https://github.com/sahil1115/mcp-cassandra-server#readme"
+}
