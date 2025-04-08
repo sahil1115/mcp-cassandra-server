@@ -28,7 +28,7 @@ Add this to your Claude Desktop config file (usually claude-desktop.config.json)
   "tools": [
     {
       "name": "mcp-cassandra-server",
-      "command": "npx @@sahil1115/mcp-cassandra-server",
+      "command": "npx @sahil1115/mcp-cassandra-server",
       "env": {
         "CASSANDRA_PASSWORD": "your_password",
         "CASSANDRA_CONTACT_POINTS": "host1,host2",
