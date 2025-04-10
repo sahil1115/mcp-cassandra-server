@@ -92,7 +92,7 @@ You can ask questions like:
 
 
 Creating Tables
-* You can give instructions like:
+You can give instructions like:
 * "Create a new 'products' table with columns for id, name, price, and category"
 * "Set up a users table with email as the primary key"
 * "Create a time series table for temperature readings with device_id and timestamp as the primary key"
