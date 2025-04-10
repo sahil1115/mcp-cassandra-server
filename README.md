@@ -100,9 +100,10 @@ Creating Tables
 
 Inserting Data
 You can request data insertions like:
-*"Add a new user named Sarah Smith with email sarah@example.com and age 32"
+* "Add a new user named Sarah Smith with email sarah@example.com and age 32"
 * "Insert a product with ID 12345, name 'Wireless Earbuds', price $99.99"
 * "Add a new temperature reading of 72.5°F for device ABC at the current time"
+
 
 
 Updating Data
@@ -110,6 +111,7 @@ You can ask for updates like:
 * "Update user john@example.com to have phone number 555-123-4567"
 * "Change the price of product 12345 to $89.99"
 * "Mark all orders from customer ABC123 as 'shipped'"
+
 
 
 Deleting Data
