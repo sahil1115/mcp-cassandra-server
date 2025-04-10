@@ -83,11 +83,13 @@ Tools
 Usage Examples
 Here are examples of how you can interact with the Cassandra database using natural language:
 
+
 Querying Data
 You can ask questions like:
 * "Show me all users from the 'users' table"
 * "Find the latest 10 orders from customer 'ABC123'"
 * "What's the average age of users in the 'customers' table?"
+
 
 Creating Tables
 * You can give instructions like:
@@ -95,17 +97,20 @@ Creating Tables
 * "Set up a users table with email as the primary key"
 * "Create a time series table for temperature readings with device_id and timestamp as the primary key"
 
+
 Inserting Data
 You can request data insertions like:
 *"Add a new user named Sarah Smith with email sarah@example.com and age 32"
 * "Insert a product with ID 12345, name 'Wireless Earbuds', price $99.99"
 * "Add a new temperature reading of 72.5°F for device ABC at the current time"
 
+
 Updating Data
 You can ask for updates like:
 * "Update user john@example.com to have phone number 555-123-4567"
 * "Change the price of product 12345 to $89.99"
 * "Mark all orders from customer ABC123 as 'shipped'"
+
 
 Deleting Data
 You can request deletions like:
