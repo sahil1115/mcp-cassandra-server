@@ -58,24 +58,24 @@ Tools
 
 
 3. insert_data: Insert data into Cassandra tables
-*Add new records to existing tables
-*Supports all Cassandra data types
-*Auto-converts JavaScript types to Cassandra types
+* Add new records to existing tables
+* Supports all Cassandra data types
+* Auto-converts JavaScript types to Cassandra types
 
 
 4. update_data: Update existing data in Cassandra tables
-*Modify records based on specified conditions
-*Update multiple columns in a single operation
-*Uses parameterized queries for safety
+* Modify records based on specified conditions
+* Update multiple columns in a single operation
+* Uses parameterized queries for safety
 
 
 5. delete_data: Remove data from Cassandra tables
-*Delete records based on specified conditions
-*Delete single or multiple records in one operation
+* Delete records based on specified conditions
+* Delete single or multiple records in one operation
 
 
 6. list_tables: List all tables in the current keyspace
-*Get an overview of available tables
+* Get an overview of available tables
 * Quick schema discovery
 
 
