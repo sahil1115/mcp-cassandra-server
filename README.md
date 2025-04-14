@@ -110,14 +110,14 @@ You can request data insertions like:<br>
 <br>
 Updating Data<br>
 You can ask for updates like:<br>
-- "Update user john@example.com to have phone number 555-123-4567"
-- "Change the price of product 12345 to $89.99"
-- "Mark all orders from customer ABC123 as 'shipped'"
+* "Update user john@example.com to have phone number 555-123-4567"
+* "Change the price of product 12345 to $89.99"
+* "Mark all orders from customer ABC123 as 'shipped'"
 <br>
 <br>
 Deleting Data<br>
 You can request deletions like:<br>
-   "Delete user with email john@example.com"
+* "Delete user with email john@example.com"
 * "Remove all products in the 'discontinued' category"
 * "Delete temperature readings older than January 1st, 2023"
 <br>
