@@ -1,4 +1,4 @@
-Cassandra MCP Server 
+Cassandra MCP Server <br>
 This Model Context Protocol (MCP) server integrates the Apache Cassandra database with Claude Desktop, enabling database operations through natural language interactions.
 
 1. Running the Cassandra MCP Server with NPX
