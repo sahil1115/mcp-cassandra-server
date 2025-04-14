@@ -1,5 +1,5 @@
-Cassandra MCP Server Features
-This Model Context Protocol (MCP) server provides integration between Apache Cassandra database and Claude Desktop, enabling database operations through natural language interactions.
+Cassandra MCP Server 
+This Model Context Protocol (MCP) server integrates the Apache Cassandra database with Claude Desktop, enabling database operations through natural language interactions.
 
 1. Running the Cassandra MCP Server with NPX
 First, publish your package to npm (or use it locally). 
@@ -19,7 +19,7 @@ export CASSANDRA_USERNAME=your_username  # defaults to "cassandra"
 ```
 
 
-2. Adding to Claude Desktop Configuration
+2. Adding to the Claude Desktop Configuration
 
 Add this to your Claude Desktop config file (usually claude-desktop.config.json):
 
