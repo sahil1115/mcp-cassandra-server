@@ -81,49 +81,43 @@ Tools
 * Quick schema discovery
 
 
+# Usage Examples
 
-Usage Examples
 Here are examples of how you can interact with the Cassandra database using natural language:
-<br>
-<br>
-Querying Data
-You can ask questions like:
-* "Show me all users from the 'users' table"
-* "Find the latest 10 orders from customer 'ABC123'"
-* "What's the average age of users in the 'customers' table?"
 
-<br>
-<br>
-Creating Tables<br>
-You can give instructions like:<br>
+## Querying Data
+You can ask questions like:
+- "Show me all users from the 'users' table"
+- "Find the latest 10 orders from customer 'ABC123'"
+- "What's the average age of users in the 'customers' table?"
+
+## Creating Tables
+You can give instructions like:
 - "Create a new 'products' table with columns for id, name, price, and category"
 - "Set up a users table with email as the primary key"
 - "Create a time series table for temperature readings with device_id and timestamp as the primary key"
-<br>
-<br>
-Inserting Data<br>
-You can request data insertions like:<br>
+
+## Inserting Data
+You can request data insertions like:
 - "Add a new user named Sarah Smith with email sarah@example.com and age 32"
 - "Insert a product with ID 12345, name 'Wireless Earbuds', price $99.99"
 - "Add a new temperature reading of 72.5°F for device ABC at the current time"
-<br>
-<br>
-Updating Data<br>
-You can ask for updates like:<br>
-* "Update user john@example.com to have phone number 555-123-4567"
-* "Change the price of product 12345 to $89.99"
-* "Mark all orders from customer ABC123 as 'shipped'"
-<br>
-<br>
-Deleting Data<br>
-You can request deletions like:<br>
-* "Delete user with email john@example.com"
-* "Remove all products in the 'discontinued' category"
-* "Delete temperature readings older than January 1st, 2023"
-<br>
-<br>
-Complex Operations<br>
-You can perform more complex operations with natural language:<br>
-* "Find all orders placed by customers in New York in the last month."
-* "Calculate the total sales by category for the current quarter."
-* "List the top 5 most active users based on login count
+
+## Updating Data
+You can ask for updates like:
+- "Update user john@example.com to have phone number 555-123-4567"
+- "Change the price of product 12345 to $89.99"
+- "Mark all orders from customer ABC123 as 'shipped'"
+
+## Deleting Data
+You can request deletions like:
+- "Delete user with email john@example.com"
+- "Remove all products in the 'discontinued' category"
+- "Delete temperature readings older than January 1st, 2023"
+
+## Complex Operations
+You can perform more complex operations with natural language:
+- "Find all orders placed by customers in New York in the last month."
+- "Calculate the total sales by category for the current quarter."
+- "List the top 5 most active users based on login count."
+
